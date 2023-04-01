@@ -1,0 +1,6 @@
+.bodycontain{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid aqua;
+}

@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    width: 95vw;
+    height: 2.5vh;
+    padding: 2vw;
+    background-color: #222b33;
+    
+}
+
+.icons{
+    margin: auto 2vw;
+    border: 1px solid gray;
+}

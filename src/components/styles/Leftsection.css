@@ -1,0 +1,21 @@
+.leftsection{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.leftgrp{
+    padding: 2vw 1vw;
+    height: 10vw;
+    width: 200px;
+    margin: 1vw auto;
+    background-color: #222b33;
+    border-radius: 15px;
+}
+@media only screen and (max-width:800px) {
+   .leftgrp{
+    width: auto;
+    height: 30vw;
+   } 
+}

@@ -1,0 +1,21 @@
+.midsection{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 70%;
+}
+
+.midpost{
+    width: 80%;
+    background-color: #222b33;
+    border-radius: 15px;
+    margin: 1.5vw auto;
+    padding: 2vw;
+}
+
+@media only screen and (max-width:800px){
+    .midpost{
+        height: 10vw;
+    }
+}
