@@ -2,14 +2,13 @@
     display: inline;
     display: flex;
     flex-direction: column;
-    width: 20%;
 }
 
 .leftgrp{
     padding: 2vw 1vw;
     height: 10vw;
     width: 200px;
-    margin: 1vw auto;
+    margin: 1vw 1vw;
     background-color: #222b33;
     border-radius: 15px;
 }

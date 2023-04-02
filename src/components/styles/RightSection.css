@@ -1,0 +1,34 @@
+.rightgrp{
+    background-color: #222b33;
+    padding:0.5vw;
+    border: 0px solid red;
+    margin: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.grpheading{
+    display: flex;
+    border:0px solid red;
+    width: 80%;
+    margin: 1vw auto;
+}
+
+.smallpost{
+    border:0px solid aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 0vw 2vw;
+    width: 80%;
+    margin: 0vw auto;
+}
+.sppara{
+    margin:0vw 1vw;
+    flex: 25%;
+}
+.spimg{
+    padding: 1vw 1vw;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}

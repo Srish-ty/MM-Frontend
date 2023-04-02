@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    flex-direction: row;
     width: 95vw;
     height: 2.5vh;
     padding: 2vw;
