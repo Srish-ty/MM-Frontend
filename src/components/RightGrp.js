@@ -18,11 +18,21 @@ export const RightGrp=({data})=>{
 const SmallPost=({content})=>{
     return(
         <p className="smallpost">
-           {content.imgsrc && <img className="spimg" src={content.imgsrc} alt="icon"></img>}
+{content.tags ? (<img className="spimg meetimg" src={content.imgsrc} alt="icon"></img>):(<img className="spimg" src={content.imgsrc} alt="icon"></img>)}
         
             <p className='sppara'>
             <h5 className="spheading">{content.sphead}</h5>
-            <p>{content.textpara}</p>
+            <p className='rtextpara'>{content.textpara}</p>
+
+            { content.tags && (
+                <p className='rtagcont'>
+                {content.tags.map( tag=>(
+                    <span className='rtags'> {tag} </span>
+                   ) )}
+                   </p>
+            )
+                
+            }
             </p>
       {content.sicon &&  <EastIcon  className='sarrow'/>}
         </p>
