@@ -16,21 +16,21 @@ export const Nav = () => {
       <div className='firstrow'>
       <div className='logocont'>
       <div className='logo'>
-        <img className='imlogo' src={'https://cdn1.vectorstock.com/i/1000x1000/64/35/initial-letter-h-logo-design-alphabet-h-icon-vector-21696435.jpg'}></img>
+        <img className='imlogo' alt='logo' src={'https://cdn1.vectorstock.com/i/1000x1000/64/35/initial-letter-h-logo-design-alphabet-h-icon-vector-21696435.jpg'}></img>
       </div>
       <h1>Knowledgechain</h1>
       </div>
       <div className='iconcont'>
-      <Iconcont> <HomeIcon className='homeicon'/> </Iconcont>
-      <Iconcont> <EventNoteIcon/> </Iconcont>
-      <Iconcont> <GroupsIcon/> </Iconcont>
-      <Iconcont> <HeadsetMicIcon/> </Iconcont>
-      <Iconcont> <MicExternalOnIcon/> </Iconcont>
+      <Iconcont> <HomeIcon className='homeicon firstico'/> </Iconcont>
+      <Iconcont> <EventNoteIcon className='homeicon'/> </Iconcont>
+      <Iconcont> <GroupsIcon className='homeicon'/> </Iconcont>
+      <Iconcont> <HeadsetMicIcon className='homeicon'/> </Iconcont>
+      <Iconcont> <MicExternalOnIcon className='homeicon'/> </Iconcont>
       </div>
       </div>
       
       <div className='ll'>
-      <div className='searchbar'> Type here to search..
+      <div className='searchbar'> <input type='text' className='searchbari' placeholder='Type here to search...'></input>
       <SearchIcon/>
       </div>
 

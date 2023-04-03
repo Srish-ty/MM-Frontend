@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles/Leftsection.css'
 
-export const LeftGrp = () => {
+export const LeftGrp = ({children}) => {
   return (
-    <div className='leftgrp'>LeftGrp</div>
+    <div className='leftgrp'>{children}</div>
   )
 }

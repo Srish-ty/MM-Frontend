@@ -6,13 +6,13 @@ export const MidPost = ({data}) => {
   return (
     <div className='midpost'>
       <div className='postimg'>
-        <img className='pimg' src={data.imgsrc} alt='post-image'></img>
+        <img className='pimg' src={data.imgsrc} alt='post-ima'></img>
       </div>
 
       <div className='pheader'>
         <h2>{data.heading}</h2>
       {
-        data.micon=='red'? (<span className='colored'><FavoriteRoundedIcon className='heart'/></span> ):<FavoriteRoundedIcon className='heart'/>
+        data.micon==='red'? (<span className='colored'><FavoriteRoundedIcon className='heart'/></span> ):(<span className='colornan'><FavoriteRoundedIcon className='heart'/></span>)
       }
       </div>
 

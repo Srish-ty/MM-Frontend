@@ -15,6 +15,8 @@ export const RightGrp=({data})=>{
     )
 }
 
+// inner smaller component 
+
 const SmallPost=({content})=>{
     return(
         <p className="smallpost">

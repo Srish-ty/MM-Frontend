@@ -28,14 +28,23 @@
 @media only screen and (max-width:800px){
     .firstrow{
         width: 97%;
+        padding: 2vw;
     }
 }
 
 .logocont{
+    border: 0px solid white;
+    height: 2.2vh;
+    padding: 1.3vw 0.7vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #f75206;
+    border-radius: 5px;
+}
+.logocont:hover{
+    background-color: white;
+    box-shadow: 0vw 0vw 0.5vw white;
 }
 .logo{
     border:0px solid white;
@@ -56,9 +65,18 @@
     margin: auto 1vw;
 }
 .homeicon{
+    padding: 5px;
+}
+.homeicon:hover{
     background-color: #f75206;
     padding: 5px;
     border-radius: 3px;
+}
+.firstico{
+    background-color: #f75206;
+}
+.firstico:hover{
+    background-color: #222b33;
 }
 
 .searchbar{
@@ -70,7 +88,22 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+.searchbari{
+    border: none;
+    width: 80%;
+    background-color: #323e4a;
+    color: #57708a;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+.searchbar:hover{
+    border: 1px solid #57708a;
+    box-shadow: 0vw 0vw 2px #57708a;
+}
+
 
 .lastrow{
     display: flex;
@@ -82,6 +115,9 @@
     background-color: #323e4a;
     border-radius: 5px;
     padding: 8px;
+}
+.lasticons:hover{
+    background-color: #f75206;
 }
 
 .ll{
