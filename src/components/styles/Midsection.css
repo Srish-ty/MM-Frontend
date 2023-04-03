@@ -7,14 +7,73 @@
 
 .midpost{
     display: grid;
+    grid-template-rows: auto auto 5vw;
+    grid-template-columns: 15vw auto auto;
     background-color: #222b33;
     border-radius: 15px;
-    margin: 1.5vw 1vw;
-    padding: 2vw;
+    margin: 1vw 0.5vw;
+    padding: 0.5vw;
 }
-
 @media only screen and (max-width:800px){
     .midpost{
-        height: 10vw;
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
+}
+
+.midpost > div{
+  padding: 20px 1vw;
+  border:1px solid white;
+}
+
+.postimg{
+    grid-row-start: 1; grid-row-end: 4;
+}
+@media only screen and (max-width:800px) {
+    .postimg{
+        width: 95%;
+    }  
+}
+.pheader{
+    grid-column-start: 2; grid-column-end: 4;
+}
+h2{ margin: 0%; }
+
+.ptags{
+    grid-column-start: 2; grid-column-end: 4;
+}
+
+
+.tags{
+    background-color: #323e4a;
+    padding: 0.4vw 1vw;
+    margin: 0% 0.6vw;
+    border-radius:15px ;
+}
+
+.pimg{
+    margin: 0%;
+    height: 100%; width: 100%;
+    border-radius: 20px;
+}
+
+.author{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.authorpara{
+    display: flex;
+    flex-direction: column;
+}
+
+.authpiccont{
+    width: 120px; height: 60px;
+}
+.authpic{
+    width: 50%; height: 100%;
+    border-radius: 10px;
+
 }
