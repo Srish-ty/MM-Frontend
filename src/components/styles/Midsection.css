@@ -8,7 +8,7 @@
 .midpost{
     display: grid;
     grid-template-rows: auto auto 5vw;
-    grid-template-columns: 15vw auto auto;
+    grid-template-columns: 15vw auto 20vw;
     background-color: #222b33;
     border-radius: 15px;
     margin: 1vw 0.5vw;
@@ -25,7 +25,7 @@
 
 .midpost > div{
   padding: 20px 1vw;
-  border:1px solid white;
+  border:0px solid white;
 }
 
 .postimg{
@@ -38,6 +38,9 @@
 }
 .pheader{
     grid-column-start: 2; grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 h2{ margin: 0%; }
 
@@ -51,6 +54,7 @@ h2{ margin: 0%; }
     padding: 0.4vw 1vw;
     margin: 0% 0.6vw;
     border-radius:15px ;
+    color: #57708a;
 }
 
 .pimg{
@@ -73,7 +77,21 @@ h2{ margin: 0%; }
     width: 120px; height: 60px;
 }
 .authpic{
-    width: 50%; height: 100%;
+    width: 55%; height: 100%;
     border-radius: 10px;
 
+}
+.date{
+    color: #57708a;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    color:#57708a;
+}
+.colored{
+    color: #f75206;
 }

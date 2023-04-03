@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Midsection.css';
+import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 
 export const MidPost = ({data}) => {
   return (
@@ -7,7 +8,13 @@ export const MidPost = ({data}) => {
       <div className='postimg'>
         <img className='pimg' src={data.imgsrc} alt='post-image'></img>
       </div>
-      <div className='pheader'><h2>{data.heading}</h2></div>
+
+      <div className='pheader'>
+        <h2>{data.heading}</h2>
+      {
+        data.micon=='red'? (<span className='colored'><FavoriteRoundedIcon className='heart'/></span> ):<FavoriteRoundedIcon className='heart'/>
+      }
+      </div>
 
       <div className='ptags'>
         {
@@ -22,12 +29,14 @@ export const MidPost = ({data}) => {
         <img className='authpic' src={data.profurl} alt='profile-pic'></img> </div>
         <p className='authorpara'>
           <b>{data.pname}</b>
-            { data.date }
+           <span className='date'>{ data.date }</span> 
         </p>
       </div>
 
       <div className='likes'>
-        
+        <span>{data.views} views  </span>
+        <span>{data.likes} likes </span>
+        <span>{data.comments} comments </span>
       </div>
 
     </div>

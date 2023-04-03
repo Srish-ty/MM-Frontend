@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 95vw;
     height: 2.5vh;
     padding: 2vw;
@@ -20,29 +21,39 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    border: 0px solid white;
+    width: 40%;
+}
+@media only screen and (max-width:800px){
+    .firstrow{
+        width: 97%;
+    }
 }
 
 .logocont{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.logocont {
     color: #f75206;
 }
 .logo{
     border:0px solid white;
     height:50px; width: 50px;
-    margin: 0vw 1vw;
+    margin: 0vw 1vw 0vw 0vw;
 }
 .imlogo{
     height: 100%; width: 100%;
     border-radius: 10px;
 }
 
+.iconcont{
+    display: flex;
+    justify-content: center;
+    border: 0px solid orange;
+}
 .icons{
-    margin: auto 1.5vw;
-    border: 0px solid gray;
+    margin: auto 1vw;
 }
 .homeicon{
     background-color: #f75206;
@@ -56,6 +67,31 @@
     color: #57708a;
     border-radius: 5px;
     padding: 10px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.lastrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lasticons{
+    margin: auto 1vw;
+    background-color: #323e4a;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.ll{
+    display: flex;
+    flex-direction: row;
+    flex:30%;
+    border: 0px solid white;
+}
+@media only screen and (max-width:800px) {
+    .ll{
+        width: 95%;
+    }
 }

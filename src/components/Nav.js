@@ -6,6 +6,9 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
 import MicExternalOnIcon from '@mui/icons-material/MicExternalOn';
 import SearchIcon from '@mui/icons-material/Search';
+import ChatIcon from '@mui/icons-material/Chat';
+import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
+
 
 export const Nav = () => {
   return (
@@ -26,9 +29,15 @@ export const Nav = () => {
       </div>
       </div>
       
-
+      <div className='ll'>
       <div className='searchbar'> Type here to search..
       <SearchIcon/>
+      </div>
+
+      <div className='lastrow'>
+        <LastLogos> <ChatIcon/> </LastLogos>
+        <LastLogos> <NotificationsRoundedIcon/> </LastLogos>
+      </div>
       </div>
     </nav>
   )
@@ -38,5 +47,11 @@ export const Nav = () => {
 const Iconcont =({children})=>{
   return(
     <span className='icons'>{children}</span>
+  )
+}
+
+const LastLogos =({children})=>{
+  return(
+    <span className='lasticons'>{children}</span>
   )
 }

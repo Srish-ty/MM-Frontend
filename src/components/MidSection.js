@@ -24,7 +24,7 @@ const midPortion =[
       profurl:"https://cdn.dribbble.com/users/515705/screenshots/17007178/media/70d968bb225a0f0f58021708ceab21dd.jpg?compress=1&resize=768x576&vertical=top",
       pname:"Pavel Gvay",
       date:"1 week ago",
-    views:'', likes:'', comments:''
+    views:'651,324', likes:'366,545', comments:'56'
  
   },
   {
@@ -35,7 +35,7 @@ const midPortion =[
       profurl:"https://cdn.dribbble.com/users/1176657/screenshots/15468294/media/34af996ddff444391edab94abcf3c7f3.png?compress=1&resize=768x576&vertical=top",
       pname:"AR Jakir",
       date:"3 days ago",
-    views:'', likes:'', comments:''
+      views:'976,324', likes:'452,545', comments:'70'
     
   },
   {
@@ -46,7 +46,7 @@ const midPortion =[
       profurl:"https://cdn.dribbble.com/users/334862/screenshots/16460904/media/d63d1f7e91c92a46e35d74bfdf1e4b02.png?compress=1&resize=768x576&vertical=top",
       pname:"Mansurul Haque",
       date:"1 week ago",
-    views:'', likes:'', comments:''
+      views:'821,724', likes:'251,045', comments:'32'
     
   },
   {
@@ -57,7 +57,7 @@ const midPortion =[
       profurl:"https://cdn.dribbble.com/users/230875/screenshots/12163492/media/9ccf7b00b9933758d84c8f6b2bf9185f.jpg?compress=1&resize=768x576&vertical=top",
       pname:"Michal Malewicz",
       date:"2 weeks ago",
-    views:'', likes:'', comments:''
+      views:'409,324', likes:'36,6545', comments:'44'
     
   },
 ]
