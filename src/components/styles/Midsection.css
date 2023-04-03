@@ -103,3 +103,74 @@ h2{ margin: 0%; }
 .colored:hover{
     color: #92a1b0;
 }
+
+/* create post component */
+.midcre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: 1vw auto 0.5vw auto;
+    padding: 2vw auto;
+    background-color: #222b33;
+    border-radius: 10px;
+    
+}
+@media only screen and (max-width:800px){
+    .midcre{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        height: auto;
+        padding: 1.5vw;
+    }
+}
+
+.crebutton{
+    background-color: #f75206;
+    padding: 1vw;
+    color: white;
+    border: none;
+    margin: auto 2vw;
+    border-radius: 7px;
+}
+
+.msearchbar{
+    width: 30vw;
+    background-color: #323e4a;
+    color: #57708a;
+    border-radius: 5px;
+    padding: 5px;
+    margin:1vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.msearchbari{
+    border: none;
+    width: 80%;
+    background-color: #323e4a;
+    color: #57708a;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+.msearchbar:hover{
+    border: 1px solid #57708a;
+    box-shadow: 0vw 0vw 2px #57708a;
+}
+
+
+.propic{
+    width:62px; height:58px;
+    margin: auto 2vw;
+}
+@media only screen and (max-width:800px) {
+    .propic{ display: none; }
+}
+.proimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}

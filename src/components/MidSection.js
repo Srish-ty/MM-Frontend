@@ -1,10 +1,12 @@
 import React from 'react';
 import { MidPost } from './MidPost';
 import './styles/Midsection.css';
+//import { useState, useEffect } from 'react';
 
 
 export const MidSection = () => {
   return (<section className='midsection'>
+    <CreatePost/>
     {
       midPortion.map( mpost=>(
         <MidPost data={mpost}/>
@@ -14,6 +16,20 @@ export const MidSection = () => {
   )
 }
 
+//const [post, setPost]= useState(midPortion);
+
+const CreatePost=()=>{
+
+const sayMsg=()=>{
+  alert('Posted!');
+}
+  return(
+    <div className='midcre'>
+            <div className='propic'><img className='proimg' alt='profile' src='https://cdn.dribbble.com/users/230875/screenshots/12163492/media/9ccf7b00b9933758d84c8f6b2bf9185f.jpg?compress=1&resize=768x576&vertical=top'></img></div>
+            <div className='msearchbar'> <input type='text' className='msearchbari' placeholder="Let's share what's going on your mind.."/></div>
+            <button className='crebutton' onClick={sayMsg}>Create Post</button>
+    </div>)
+}
 
 const midPortion =[
   {
