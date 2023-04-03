@@ -1,6 +1,12 @@
 .bodycontain{
     margin: 0%;
+  display: grid;
+  grid-template-columns: 20vw auto 25vw;
+  column-gap: 5px;
+    border: 0px solid aqua;
+}
+
+/*
     display: flex;
     flex-direction: row;
-    border: 1px solid aqua;
-}
+*/

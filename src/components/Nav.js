@@ -12,7 +12,7 @@ import MicExternalOnIcon from '@mui/icons-material/MicExternalOn';
 export const Nav = () => {
   return (
     <nav className='navbar'>
-      <Iconcont> <HomeIcon/> </Iconcont>
+      <Iconcont> <HomeIcon className='homeicon'/> </Iconcont>
       <Iconcont> <EventNoteIcon/> </Iconcont>
       <Iconcont> <GroupsIcon/> </Iconcont>
       <Iconcont> <HeadsetMicIcon/> </Iconcont>

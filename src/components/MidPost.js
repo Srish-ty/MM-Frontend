@@ -1,8 +1,12 @@
 import React from 'react';
 import './styles/Midsection.css';
 
-export const MidPost = () => {
+export const MidPost = ({data}) => {
   return (
-    <div className='midpost'>MidPost</div>
+    <div className='midpost'>
+      
+        
+
+    </div>
   )
 }

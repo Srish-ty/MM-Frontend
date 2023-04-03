@@ -2,12 +2,12 @@
     display: inline;
     display: flex;
     flex-direction: column;
+    border: 0px solid pink;
 }
 
 .leftgrp{
     padding: 2vw 1vw;
     height: 10vw;
-    width: 200px;
     margin: 1vw 1vw;
     background-color: #222b33;
     border-radius: 15px;

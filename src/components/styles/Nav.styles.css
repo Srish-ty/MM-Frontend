@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 95vw;
     height: 2.5vh;
     padding: 2vw;
@@ -10,5 +11,10 @@
 
 .icons{
     margin: auto 2vw;
-    border: 1px solid gray;
+    border: 0px solid gray;
+}
+.homeicon{
+    background-color: rgb(247, 82, 6);
+    padding: 5px;
+    border-radius: 3px;
 }

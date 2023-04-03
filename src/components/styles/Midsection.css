@@ -2,11 +2,11 @@
     display: inline;
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
-    width: 70%;
+    border: 0px solid white;
 }
 
 .midpost{
+    display: grid;
     background-color: #222b33;
     border-radius: 15px;
     margin: 1.5vw 1vw;

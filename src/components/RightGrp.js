@@ -18,12 +18,13 @@ export const RightGrp=({data})=>{
 const SmallPost=({content})=>{
     return(
         <p className="smallpost">
-           {content.imgsrc && <img className="spimg" src={content.imgsrc}></img>}
+           {content.imgsrc && <img className="spimg" src={content.imgsrc} alt="icon"></img>}
         
             <p className='sppara'>
             <h5 className="spheading">{content.sphead}</h5>
-            {content.textpara}
+            <p>{content.textpara}</p>
             </p>
+      {content.sicon &&  <EastIcon  className='sarrow'/>}
         </p>
     )
 }
