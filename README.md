@@ -1,4 +1,4 @@
-# Monday Morning Technical team task
+# A social media Home page
 
 ## Frontend of a social media site
 
